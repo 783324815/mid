@@ -62,7 +62,7 @@ case R.id.menu_search:
                 intent.setClass(NotesList.this,NoteSearch.class);
                 NotesList.this.startActivity(intent);
                 return true;
-```java
+```
 3、对输入的模糊搜索内容与各item名字的比较，并显示所有匹配的item
 （可通过继续点击item，跳转至该item的编辑界面进行查看与编辑）：
 ```java
